@@ -1,376 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-   <!-- basic -->
-    <!-- hi -->
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <!-- mobile metas -->
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-   <!-- site metas -->
-   <title>cads</title>
-   <meta name="keywords" content="">
-   <meta name="description" content="">
-   <meta name="author" content="">
-   <!-- bootstrap css -->
-   <link rel="stylesheet" href="css/bootstrap.min.css">
-   <!-- style css -->
-   <link rel="stylesheet" href="css/style.css">
-   <!-- Responsive-->
-   <link rel="stylesheet" href="css/responsive.css">
-   <!-- fevicon -->
-   <link rel="icon" href="images/fevicon.png" type="image/gif" />
-   <!-- Scrollbar Custom CSS -->
-   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-   <!-- Tweaks for older IEs-->
-   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
-      media="screen">
-   <!--[if lt IE 9]>
+  <head>
+    <!-- basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <!-- site metas -->
+    <title>cads</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+    <!-- Tweaks for older IEs-->
+    <link
+      rel="stylesheet"
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+      media="screen"
+    />
+    <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-</head>
-<!-- body -->
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script
+    ><![endif]-->
+    <style>
+      .font-family {
+        font-family: fangsong;
+      }
 
-<body class="main-layout">
-   <!-- loader  -->
-   <!-- <div class="loader_bg">
-      <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-   </div> -->
-   <!-- end loader -->
-   <!-- header -->
-   <header>
+      .custom-text {
+        color: darkred !important;
+        font-size: 18px !important;
+      }
+
+      li {
+        list-style: circle;
+        text-align: start;
+      }
+      .criteria {
+        text-align-last: center !important;
+        padding: 20px 10px !important;
+        background: #c3c4cc !important;
+        border-radius: 15px !important;
+        font-family: fangsong !important;
+        color: #12153c !important;
+      }
+      .link-text {
+        padding: 15px 65px;
+        background: bisque;
+        margin: 10px 0;
+        border: 1px solid;
+        border-radius: 15px;
+      }
+
+      @media only screen and (max-width: 767px) {
+        .img-query {
+          margin-top: 20px !important;
+        }
+      }
+    </style>
+  </head>
+  <!-- body -->
+
+  <body class="main-layout">
+    <!-- loader  -->
+    <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+    <!-- end loader -->
+    <!-- header -->
+    <header>
       <!-- header inner -->
-      <div class="header">
-         <div class="container">
-            <div class="row">
-               <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col logo_section">
-                  <div class="full">
-                     <div class="center-desk">
-                        <div class="logo">
-                           <!-- <a href="index.html"><img src="images/logo.png" alt="#" /></a> -->
-                           <h3 class="text-white">Hare Krishna Center-Dindoli (Under ISKCON Vesu)</h3>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <!-- <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarsExample04">
-                           <ul class="navbar-nav mr-auto">
-                               <li class="login_btn" class="nav-item" href="#">
-                             Login
-                             </li>
-                                <li class="nav-item">
-                              <a class="nav-link" href="#">Sing Up</a>
-                             </li>
-                           </ul>
-                        </div>
-                     </nav>
-                  </div> -->
-            </div>
-         </div>
+      <div class="header font-family">
+        <h3 class="text-white text-center">Hare Krishna Center - Dindoli</h3>
+        <h3 class="text-white text-center">(Under ISKCON Vesu)</h3>
       </div>
-   </header>
-   <!-- end header inner -->
-   <!-- end header -->
-   <!-- banner -->
-   <section class="banner_main">
-      <div class="container-fluid">
-         <div class="row d_flex">
-            <div class="col-xl-6 col-lg-6 col-md-6 ">
-               <div class="text-bg">
-                  <h1>Drama Festival</h1>
-                  <span>Experience Many Captivating<br>
-                     dramas with deep <br> spiritual messages </span>
-                  <strong>20th Oct 2024</strong>
-               </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 padding_lert2">
-
-               <div class="text-img">
-                  <figure><img src="images/pc.png" alt="#" /></figure>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- end banner -->
-   <!-- about -->
-   <div class="about">
+    </header>
+    <!-- end header inner -->
+    <!-- end header -->
+    <!-- banner -->
+    <section class="banner_main">
       <div class="container">
-         <div class="row">
-            <div class="col-md-10 offset-md-1">
-               <div class="titlepage">
-                  <span>About our </span>
-                  <h2>Classified Ads</h2>
-                  <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                     when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
-                     distribution of letters, as opposed to using 'Content here, content here', making it</p>
-               </div>
+        <div class="row d_flex">
+          <div class="col-md-10 offset-md-1">
+            <div class="text-bg" style="max-width: 100%">
+              <h1 class="text-center pt-3">Drama Fest 2024</h1>
+              <span class="text-center font-family"
+                >🎭🎭 <br />
+                Experience many captivating<br />
+                dramas with deep spiritual messages <br />🎭🎭
+              </span>
+              <p class="text-justify pb-3">
+                Dear friends,<br />
+                We are excited to invite you to Drama Festival 2024 under
+                ISKCON, where each play brings to life powerful lessons of love,
+                compassion, and spirituality, all centered around the teachings
+                of Krishna Consciousness. 🌿✨
+              </p>
+              <strong class="pb-0 text-center">20th Oct. 2024</strong>
+              <span class="text-center font-family">6:30PM - 9:30PM</span>
+              <p class="text-center pb-3">
+                📍 Location 📍 <br />
+                Ramnagar Society Plot, Varigruh BRTS Line, C R Patil Road,
+                Dindoli, Surat.
+              </p>
+              <p class="text-center pb-3">
+                🍽️ Special Offering 🍽️<br />
+                Complete dinner (prasadam) will be served after the event.
+              </p>
+              <span class="criteria mt-3 mb-5"
+                >Only Boys <br />
+                Age: 15-30</span
+              >
             </div>
-         </div>
-
-         <div class="row">
-            <div class="ccol-md-10 offset-md-1">
-               <div class="about_box">
-                  <figure><img src="images/about.png" alt="#" /></figure>
-
-               </div>
-            </div>
-
-
-         </div>
-
+          </div>
+        </div>
       </div>
-   </div>
-
-   <!-- end about -->
-   <!-- classified -->
-   <div class="classified">
+    </section>
+    <!-- end banner -->
+    <!-- about -->
+    <div class="about mt-5 py-4">
       <div class="container">
-         <div class="row">
-            <div class="col-md-12">
-               <div class="titlepage">
-                  <span>Why choose ads</span>
-                  <h2>ONE OF THE BEST Classified</h2>
-                  <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                     when looking at its layout. The point of using Lorem ere, content here', making it</p>
-               </div>
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <div class="titlepage pb-3">
+              <span>Our Goals</span>
+              <h2>Themes of Dramas</h2>
+              <p class="text-justify">
+                Themes of dramas are with the message of
+                <span class="custom-text font-family">MORAL VALUES.</span>
+                Giving the message of spiritual education, necessity of
+                <span class="custom-text font-family">DHARMA</span> in today's
+                society, message of unity and how actually what everyone can do
+                for society in a dramatic way.
+              </p>
+              <p class="pt-3 text-justify">
+                Our youth will be presenting very meaningful dramas like below
+                of them
+              </p>
+              <ul class="custom-text font-family" style="padding: 0 0 0 22px">
+                <li>Me and My Mind</li>
+                <li>The Kerala Story</li>
+                <li>Spiritual Debate</li>
+                <li>Aap ki Adalat</li>
+                <li>Munna Bhai</li>
+                <li>KBC</li>
+              </ul>
+              <p class="pt-3 text-justify">
+                We request you to help in registration, so that they can come
+                definitely.
+              </p>
             </div>
-         </div>
-
-
-
-         <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-4 margin_bott">
-               <div class="classified_box">
-                  <figure><img src="images/work_img1.jpg" alt="#" /></figure>
-                  <h3> FRONT END MULTICURRENCY </h3>
-                  <p>It is a long established fact that a reader will opposed to using 'Content here, content here',
-                     making it</p>
-               </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 margin_bott">
-               <div class="classified_box">
-                  <figure><img src="images/work_img2.jpg" alt="#" /></figure>
-                  <h3>MOST INTELLIGENT SEARCH SYSTEM</h3>
-                  <p>It is a long established fact that a reader will opposed to using 'Content here, content here',
-                     making it</p>
-               </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4">
-               <div class="classified_box">
-                  <figure><img src="images/work_img3.jpg" alt="#" /></figure>
-                  <h3> FRONT END MULTICURRENCY </h3>
-                  <p>It is a long established fact that a reader will opposed to using 'Content here, content here',
-                     making it</p>
-               </div>
-            </div>
-         </div>
-
+          </div>
+        </div>
       </div>
-   </div>
-
-   <!-- end classified -->
-
-
-
-   <!-- contact -->
-   <div id="contact" class="contact">
+    </div>
+    <!-- end about -->
+    <!-- classified -->
+    <div class="classified mt-4">
       <div class="container">
-         <div class="row d_flex">
-            <div class="col-md-6">
-               <div class="contact_box">
-                  <div class="titlepage">
-                     <span>Contact Us</span>
-                     <h2>Let’s talk for ads</h2>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="titlepage p-0">
+              <span>Register your spot today!</span>
+              <h2>Registration</h2>
+              <div class="row my-md-4">
+                <div class="col-md-6">
+                  <p class="text-justify">
+                    By clicking or scanning, you will be prompted to another
+                    tab, fill up the form, after submit and successful payment,
+                    you will recieve message and email.
+                  </p>
+                  <br />
+                  <a
+                    class="font-family custom-text link-text"
+                    href="https://pages.razorpay.com/dramafest2024"
+                    >Click here to Register</a
+                  ><br />
+
+                  <p class="my-3" style="color: #12153c">
+                    ----------------- OR -----------------
+                  </p>
+                  <p>Simply scan the QR code for registration.</p>
+                </div>
+                <div class="col-md-6">
+                  <div class="margin_bott text-center">
+                    <img
+                      class="shadow img-query"
+                      src="images/signup.jpg"
+                      alt="#"
+                      width="400px"
+                      height="400px"
+                    />
                   </div>
-                  <p>It is a long established fact that a reader will be distracted by the readable content of a page
-                     when looking at its layout. The point of using Lorem ere, content here', making itIt is a long
-                     established fact that a reader will be distracted by the readable content of a page when looking at
-                     its layout. The point of using Lorem ere, content here', making it</p>
-               </div>
+                </div>
+              </div>
             </div>
-            <div class="col-md-6">
-               <form id="contact" class="main_form">
-                  <div class="row">
-                     <div class="col-md-12 ">
-                        <input class="contactus" placeholder="Name" type="type" name="Name">
-                     </div>
-                     <div class="col-md-12">
-                        <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">
-                     </div>
-                     <div class="col-md-12">
-                        <input class="contactus" placeholder="Email" type="type" name="Email">
-                     </div>
-                     <div class="col-md-12">
-                        <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message </textarea>
-                     </div>
-                     <div class="col-sm-12">
-                        <button class="send_btn">Send</button>
-                     </div>
-                  </div>
-               </form>
-            </div>
-         </div>
+          </div>
+        </div>
+        <div class=""></div>
       </div>
-   </div>
-   <!-- end contact -->
-
-
-   <!-- testimonial -->
-   <div class="testimonial">
+    </div>
+    <!-- end classified -->
+    <!-- contact -->
+    <div id="contact" class="contact mt-4 py-4">
       <div class="container">
-         <div class="row">
-            <div class="col-md-12">
-               <div class="titlepage">
-                  <h2>Testimonial</h2>
-                  <p>when looking at its layout. The point of using Lorem ere, content here', making it</p>
-               </div>
+        <div class="row d_flex">
+          <div class="col-md-6 pb-5 mb-5">
+            <div class="contact_box pb-5">
+              <div class="titlepage">
+                <span>Contact Us</span>
+                <h2>Let’s talk with us for any queries</h2>
+              </div>
+              <p class="mb-3">📱 Mobile Number - 8160629892</p>
             </div>
-         </div>
-         <div class="row">
-            <div class="col-md-10 offset-md-1">
-               <div id="myCarousel" class="carousel slide testimonial_Carousel " data-ride="carousel">
-                  <ol class="carousel-indicators">
-                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                     <li data-target="#myCarousel" data-slide-to="1"></li>
-                     <li data-target="#myCarousel" data-slide-to="2"></li>
-                  </ol>
-                  <div class="carousel-inner">
-                     <div class="carousel-item active">
-                        <div class="container">
-                           <div class="carousel-caption ">
-                              <div class="row">
-                                 <div class="col-xl-4 col-lg-4 col-md-12 margin_boot">
-                                    <div class="test_box1">
-                                       <figure><img src="images/tests.png" alt="#" /></figure>
-                                       <h4> be distracted </h4>
-                                    </div>
-                                 </div>
-                                 <div class="col-xl-8 col-lg-8 col-md-12">
-                                    <div class="test_box">
-                                       <i><img src="images/te1.png" alt="#" /></i>
-                                       <p>It is a long established fact that a reader will be distracted by the readable
-                                          content of a page when looking at its layout. The point of using Lorem Ipsum
-                                          is that it has a more-or-less normal distribution of letters, as opposed to
-                                          using 'Content here, content here', making it </p>
-                                       <i class="flot_right"><img src="images/te2.png" alt="#" /></i>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="carousel-item">
-                        <div class="container">
-                           <div class="carousel-caption">
-                              <div class="row">
-                                 <div class="col-xl-4 col-lg-4 col-md-12 margin_boot">
-                                    <div class="test_box1">
-                                       <figure><img src="images/tests.png" alt="#" /></figure>
-                                       <h4> be distracted </h4>
-                                    </div>
-                                 </div>
-                                 <div class="col-xl-8 col-lg-8 col-md-12">
-                                    <div class="test_box">
-                                       <i><img src="images/te1.png" alt="#" /></i>
-                                       <p>It is a long established fact that a reader will be distracted by the readable
-                                          content of a page when looking at its layout. The point of using Lorem Ipsum
-                                          is that it has a more-or-less normal distribution of letters, as opposed to
-                                          using 'Content here, content here', making it </p>
-                                       <i class="flot_right"><img src="images/te2.png" alt="#" /></i>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="carousel-item">
-                        <div class="container">
-                           <div class="carousel-caption">
-                              <div class="row">
-                                 <div class="col-xl-4 col-lg-4 col-md-12 margin_boot">
-                                    <div class="test_box1">
-                                       <figure><img src="images/tests.png" alt="#" /></figure>
-                                       <h4> be distracted </h4>
-                                    </div>
-                                 </div>
-                                 <div class="col-xl-8 col-lg-8 col-md-12">
-                                    <div class="test_box">
-                                       <i><img src="images/te1.png" alt="#" /></i>
-                                       <p>It is a long established fact that a reader will be distracted by the readable
-                                          content of a page when looking at its layout. The point of using Lorem Ipsum
-                                          is that it has a more-or-less normal distribution of letters, as opposed to
-                                          using 'Content here, content here', making it </p>
-                                       <i class="flot_right"><img src="images/te2.png" alt="#" /></i>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                     <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                     <span class="sr-only">Next</span>
-                  </a>
-               </div>
-            </div>
-         </div>
+          </div>
+        </div>
       </div>
-   </div>
-   <!-- end testimonial -->
-
-   <!--  footer -->
-   <footer>
+    </div>
+    <!-- end contact -->
+    <!--  footer -->
+    <footer>
       <div class="footer">
-         <div class="container">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 offset-md-2">
+              <div class="cont">
+                <h3>🙏Thank you so much🙏</h3>
+                <p class="p-0 pt-3">🌼 Hare Krishna 🌼</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright mt-5">
+          <div class="container">
             <div class="row">
-               <div class="col-md-8 offset-md-2">
-                  <div class="cont">
-                     <h3>Free Multipurpose <br>
-                        Responsive Landing Page 2019
-                     </h3>
-                     <p>Modern lighting fast & easily Customizable</p>
-                     <a class="read_more" href="#">Get A Quote</a>
-                  </div>
-               </div>
+              <div class="col-md-12">
+                <p>© 2024 All Rights Reserved. Design by Krishnai Software</p>
+              </div>
             </div>
-         </div>
-         <div class="copyright">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <p>© 2019 All Rights Reserved. Design by <a href="https://html.design/"> Free Html Templates</a>
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </div>
+          </div>
+        </div>
       </div>
-   </footer>
-   <!-- end footer -->
-   <!-- Javascript files-->
-   <script src="js/jquery.min.js"></script>
-   <script src="js/popper.min.js"></script>
-   <script src="js/bootstrap.bundle.min.js"></script>
-   <script src="js/jquery-3.0.0.min.js"></script>
-   <script src="js/plugin.js"></script>
-   <!-- sidebar -->
-   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-   <script src="js/custom.js"></script>
-   <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-</body>
-
+    </footer>
+    <!-- end footer -->
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+  </body>
 </html>
