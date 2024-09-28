@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <!-- site metas -->
-    <title>cads</title>
+    <title>Drama Fest 2024</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="author" content="" />
@@ -65,10 +65,45 @@
         border: 1px solid;
         border-radius: 15px;
       }
+      .elements {
+        font-size: 42px;
+        color: #12153c;
+        line-height: 54.12px;
+        text-align: center;
+      }
+      .title {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 1.24;
+        margin: 0;
+        margin: 20px 0;
+        font-family: Enclid circular;
+      }
+      .theme-gradient {
+        background: linear-gradient(90deg, #2f57ef, #b966e7);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0.001);
+      }
 
       @media only screen and (max-width: 767px) {
         .img-query {
           margin-top: 20px !important;
+          border: solid 1px;
+          border-radius: 10px;
+        }
+      }
+      @media only screen and (max-width: 991px) {
+        .elements {
+          display: grid;
+          font-size: 25px;
+          border: solid 1px;
+          border-radius: 10px;
+          padding: 40px 20px;
+        }
+        .theme-gradient {
+          font-size: 100px;
         }
       }
     </style>
@@ -78,8 +113,8 @@
   <body class="main-layout">
     <!-- loader  -->
     <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-      </div>
+      <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+    </div>
     <!-- end loader -->
     <!-- header -->
     <header>
@@ -106,12 +141,12 @@
               <p class="text-justify pb-3">
                 Dear friends,<br />
                 We are excited to invite you to Drama Festival 2024 under
-                ISKCON, where each play brings to life powerful lessons of love,
+                ISKCON, where each play brings life powerful lessons of love,
                 compassion, and spirituality, all centered around the teachings
                 of Krishna Consciousness. 🌿✨
               </p>
               <strong class="pb-0 text-center">20th Oct. 2024</strong>
-              <span class="text-center font-family">6:30PM - 9:30PM</span>
+              <span class="text-center font-family">6:30 PM - 9:30 PM</span>
               <p class="text-center pb-3">
                 📍 Location 📍 <br />
                 Ramnagar Society Plot, Varigruh BRTS Line, C R Patil Road,
@@ -119,11 +154,11 @@
               </p>
               <p class="text-center pb-3">
                 🍽️ Special Offering 🍽️<br />
-                Complete dinner (prasadam) will be served after the event.
+                Complete dinner (Prasadam) will be served after the event.
               </p>
               <span class="criteria mt-3 mb-5"
                 >Only Boys <br />
-                Age: 15-30</span
+                Age: 15 - 30</span
               >
             </div>
           </div>
@@ -169,6 +204,20 @@
       </div>
     </div>
     <!-- end about -->
+    <!-- Total -->
+    <div class="about mt-5 py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <h2 class="elements title shadow py-md-5">
+              <strong class="theme-gradient">50+</strong
+              ><span> Youth Registered</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Total -->
     <!-- classified -->
     <div class="classified mt-4">
       <div class="container">
@@ -186,12 +235,12 @@
                   </p>
                   <br />
                   <a
-                    class="font-family custom-text link-text"
+                    class="font-family custom-text link-text shadow"
                     href="https://pages.razorpay.com/dramafest2024"
                     >Click here to Register</a
                   ><br />
 
-                  <p class="my-3" style="color: #12153c">
+                  <p class="mb-3 mt-4" style="color: #12153c">
                     ----------------- OR -----------------
                   </p>
                   <p>Simply scan the QR code for registration.</p>
