@@ -91,11 +91,26 @@
         -webkit-text-fill-color: rgba(255, 255, 255, 0.001);
       }
 
+      @media only screen and (max-width: 575px) {
+        .give-away-list {
+          margin-top: 20px;
+        }
+        .bg-img-query {
+          border: solid 1px;
+          border-radius: 10px;
+        }
+      }
       @media only screen and (max-width: 767px) {
         .img-query {
           margin-top: 20px !important;
           border: solid 1px;
           border-radius: 10px;
+        }
+        .bg-img-query {
+          margin: 0 !important;
+        }
+        .give-away {
+          padding-bottom: 20px !important;
         }
       }
       @media only screen and (max-width: 991px) {
@@ -108,6 +123,9 @@
         }
         .theme-gradient {
           font-size: 100px;
+        }
+        .give-away {
+          padding: 0 !important;
         }
       }
     </style>
@@ -136,7 +154,7 @@
         <div class="row d_flex">
           <div class="col-md-10 offset-md-1">
             <div class="text-bg" style="max-width: 100%">
-              <h1 class="text-center pt-3">Drama Fest 2024</h1>
+              <h1 class="text-center pt-3">Drama Fest 2k24</h1>
               <span class="text-center font-family"
                 >🎭🎭 <br />
                 Experience many captivating<br />
@@ -170,6 +188,48 @@
       </div>
     </section>
     <!-- end banner -->
+    <!-- start give-away -->
+    <div class="classified mt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="titlepage p-0">
+              <span>Book Distribution</span>
+              <h2 id="give-away">Give Away</h2>
+              <div class="row my-md-4">
+                <div class="col-sm-4 offset-md-1">
+                  <div class="margin_bott text-center">
+                    <img
+                      class="shadow bg-img-query"
+                      src="images/bg-1.png"
+                      alt="#"
+                      width="200px"
+                      height="200px"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-8 col-md-6 give-away-list">
+                  <ul
+                    class="custom-text font-family"
+                    style="padding: 0 0 0 22px"
+                  >
+                    <li>
+                      3 Lucky boys will get
+                      <img src="/images/free.png" width="61" alt="" />
+                      Bhagwad Geeta during Drama Festival.
+                    </li>
+                    <li>
+                      Everyone will get small gift in the end of Drama Festival.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end give-away -->
     <!-- about -->
     <div class="about mt-5 py-4">
       <div class="container">
@@ -183,7 +243,7 @@
                 <span class="custom-text font-family">MORAL VALUES.</span>
                 Giving the messages of spiritual education, necessity of
                 <span class="custom-text font-family">DHARMA</span> in today's
-                society, message of unity and how actually what everyone can do
+                society, messages of unity and how actually what everyone can do
                 for society in a dramatic way.
               </p>
               <p class="pt-3 text-justify">
@@ -277,7 +337,7 @@
                 <span>Contact Us</span>
                 <h2>Let’s talk with us for any queries</h2>
               </div>
-              <p class="mb-3">📱 Mobile Number </p>
+              <p class="mb-3">📱 Mobile Number</p>
               <p>Vaikuntha Das - 8160629892</p>
               <p>Rohit Thakare - 9527780534</p>
               <p>Satyam Ray - 6353842427</p>
